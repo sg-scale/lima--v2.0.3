@@ -24,7 +24,7 @@ require (
 	github.com/goccy/go-yaml v1.19.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/yamlfmt v0.20.0
-	github.com/invopop/jsonschema v0.13.0
+	github.com/invopop/jsonschema v0.14.0
 	github.com/lima-vm/go-qcow2reader v0.7.1
 	github.com/lima-vm/sshocker v0.3.9 // gomodjail:unconfined
 	github.com/mattn/go-isatty v0.0.20
@@ -65,7 +65,7 @@ require (
 	github.com/alecthomas/participle/v2 v2.1.4 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.7.1 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/digitalocean/go-libvirt v0.0.0-20220804181439-8648fbde413e // indirect
@@ -140,6 +140,7 @@ require (
 require (
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/google/jsonschema-go v0.3.0 // indirect
+	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
