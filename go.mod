@@ -1,7 +1,7 @@
 // gomodjail:confined
 module github.com/lima-vm/lima/v2
 
-go 1.24.0
+go 1.26.0
 
 require (
 	al.essio.dev/pkg/shellescape v1.6.0
@@ -10,7 +10,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // gomodjail:unconfined
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/balajiv113/fd v0.0.0-20230330094840-143eec500f3e
-	github.com/cheggaaa/pb/v3 v3.1.7 // gomodjail:unconfined
+	github.com/cheggaaa/pb/v3 v3.3.0 // gomodjail:unconfined
 	github.com/cilium/ebpf v0.20.0 // gomodjail:unconfined
 	github.com/containerd/continuity v0.4.5
 	github.com/containers/gvisor-tap-vsock v0.8.7 // gomodjail:unconfined
@@ -27,7 +27,7 @@ require (
 	github.com/invopop/jsonschema v0.13.0
 	github.com/lima-vm/go-qcow2reader v0.7.1
 	github.com/lima-vm/sshocker v0.3.9 // gomodjail:unconfined
-	github.com/mattn/go-isatty v0.0.20
+	github.com/mattn/go-isatty v0.0.24
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/mdlayher/netlink v1.8.0
 	github.com/mdlayher/vsock v1.2.1 // gomodjail:unconfined
@@ -47,7 +47,7 @@ require (
 	github.com/wk8/go-ordered-map/v2 v2.1.8
 	golang.org/x/net v0.48.0
 	golang.org/x/sync v0.19.0
-	golang.org/x/sys v0.39.0 // gomodjail:unconfined
+	golang.org/x/sys v0.49.0 // gomodjail:unconfined
 	golang.org/x/text v0.32.0
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11 // gomodjail:unconfined
@@ -73,7 +73,7 @@ require (
 	github.com/djherbis/times v1.6.0 // indirect
 	github.com/elliotchance/orderedmap v1.8.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
-	github.com/fatih/color v1.18.0 // indirect
+	github.com/fatih/color v1.19.0 // indirect
 	// gomodjail:unconfined
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
@@ -98,8 +98,8 @@ require (
 	github.com/linuxkit/virtsock v0.0.0-20220523201153-1a23e78aa7a2 // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
-	github.com/mattn/go-colorable v0.1.14 // indirect
-	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/mattn/go-colorable v0.1.16 // indirect
+	github.com/mattn/go-runewidth v0.0.31 // indirect
 	github.com/mdlayher/socket v0.5.1 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -109,7 +109,6 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06 // indirect
 	// gomodjail:unconfined
@@ -138,6 +137,7 @@ require (
 )
 
 require (
+	github.com/clipperhouse/uax29/v2 v2.2.0 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/google/jsonschema-go v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
