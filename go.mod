@@ -1,7 +1,7 @@
 // gomodjail:confined
 module github.com/lima-vm/lima/v2
 
-go 1.24.0
+go 1.25.0
 
 require (
 	al.essio.dev/pkg/shellescape v1.6.0
@@ -11,7 +11,7 @@ require (
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/balajiv113/fd v0.0.0-20230330094840-143eec500f3e
 	github.com/cheggaaa/pb/v3 v3.1.7 // gomodjail:unconfined
-	github.com/cilium/ebpf v0.20.0 // gomodjail:unconfined
+	github.com/cilium/ebpf v0.22.0 // gomodjail:unconfined
 	github.com/containerd/continuity v0.4.5
 	github.com/containers/gvisor-tap-vsock v0.8.7 // gomodjail:unconfined
 	github.com/coreos/go-semver v0.3.1
@@ -41,13 +41,13 @@ require (
 	github.com/rjeczalik/notify v0.9.3
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2
 	github.com/sethvargo/go-password v0.3.1
-	github.com/sirupsen/logrus v1.9.4-0.20230606125235-dd1b4c2e81af
+	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.10.2 // gomodjail:unconfined
 	github.com/spf13/pflag v1.0.10
 	github.com/wk8/go-ordered-map/v2 v2.1.8
 	golang.org/x/net v0.48.0
-	golang.org/x/sync v0.19.0
-	golang.org/x/sys v0.39.0 // gomodjail:unconfined
+	golang.org/x/sync v0.20.0
+	golang.org/x/sys v0.43.0 // gomodjail:unconfined
 	golang.org/x/text v0.32.0
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11 // gomodjail:unconfined
@@ -118,11 +118,11 @@ require (
 	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 	github.com/yuin/gopher-lua v1.1.1 // indirect
 	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/mod v0.30.0 // indirect
+	golang.org/x/mod v0.31.0 // indirect
 	golang.org/x/oauth2 v0.32.0 // indirect
 	golang.org/x/term v0.38.0 // indirect
 	golang.org/x/time v0.9.0 // indirect
-	golang.org/x/tools v0.39.0 // indirect
+	golang.org/x/tools v0.40.1-0.20260108161641-ca281cf95054 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20251029180050-ab9386a59fda // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -140,7 +140,7 @@ require (
 require (
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/google/jsonschema-go v0.3.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.3 // indirect
